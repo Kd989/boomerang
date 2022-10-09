@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e16dcabf65.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./about.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="nav-offcanvas fixed-top">
+        <nav class="navbar navbar-expand-lg  navbar-light bg-primary custom-nav-H ">
+            <div class="container-fluid">
+                <a class="navbar-brand brand" href="./home.html">Boomerrang</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3 ">
+                            <a class="nav-link " aria-current="page" href="./home.html">Home</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="./about.html">about us</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="./portfolio.html">portfolio</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="./blog.html">blog</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="./checkout.html">checkout</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="./component.html">component</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav extra-nav-ww ">
+                        <li class="px-3"><a href="">
+                                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                            </a></li>
+                        <li><a data-bs-toggle="offcanvas" href="#offcanvasRight">
+                                <span><i class="fa-solid fa-bars"></i> </span>
+                            </a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+
+
+        <div class="offcanvas offcanvas-end offcanvas-bg" tabindex="-1" id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body ">
+                <div class="off-canvas-content">
+                    <aside class="widget">
+                        <div class="textwidget ">
+                            <p class=" logo-off text-center m-0">
+                                <img src="./images/logo-light-2.png" alt="" class="img-fluid">
+                            </p>
+                            <p class="text-center mt-3">
+                                See how users experience your website in realtime to see changes.
+                            </p>
+                        </div>
+                    </aside>
+
+                    <aside class="widget widget-recent-works">
+                        <ul class="off-img">
+                            <li><a href=""><img src="./images/1.jpg" alt="" class="img-fluid"></a></li>
+                            <li><a href=""><img src="./images/2.jpg" alt="" class="img-fluid"></a></li>
+                            <li><a href=""><img src="./images/3.jpg" alt="" class="img-fluid"></a></li>
+                            <li><a href=""><img src="./images/4.jpg" alt="" class="img-fluid"></a></li>
+                            <li><a href=""><img src="./images/5.jpg" alt="" class="img-fluid"></a></li>
+                            <li><a href=""><img src="./images/6.jpg" alt="" class="img-fluid"></a></li>
+                            <li><a href=""><img src="./images/7.jpg" alt="" class="img-fluid"></a></li>
+                            <li><a href=""><img src="./images/8.jpg" alt="" class="img-fluid"></a></li>
+                            <li><a href=""><img src="./images/5.jpg" alt="" class="img-fluid"></a></li>
+                        </ul>
+                    </aside>
+
+                    <ul class="social-icon-off">
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- navbar and offcanvas ends here -->
+    <section class=" bg-c">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="space" style="margin-top: 250px;"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12  text-center cscs">
+                    <h1>We are a creative agency <br>
+                        based in New York</h1>
+                    <p>Creating digital products for creative people</p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- bg-c ends here -->
+
+    <section class="bg-grey modul">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 m-auto">
+                    <div class="space" style="margin-top:-60px ;"></div>
+                    <div class="modal-video-container">
+                        <img src="./images/pg-2.jpg" alt="">
+                        <a href="https://www.youtube.com/watch?v=0aCbYxJ9gus" class="play-button"></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="space" style="margin-top: 80px;"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 pad-about">
+                    <div class="icon-box text-center">
+                        <div class="icon-box-icon">
+                            <span class="ti-layout">
+                                <i class="fa-solid fa-music"></i>
+                            </span>
+                        </div>
+                        <div class="icon-box-title">
+                            <h6>visual composer</h6>
+                        </div>
+                        <div class="icon-box-content">
+                            <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.</p>
+
+                        </div>
+                        <div class="icon-box-link">
+                            <a href="">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pad-about">
+                    <div class="icon-box text-center">
+                        <div class="icon-box-icon">
+                            <span class="ti-layout">
+                                <i class="fa-solid fa-sliders"></i>
+                            </span>
+                        </div>
+                        <div class="icon-box-title">
+                            <h6>Revolution Slider</h6>
+                        </div>
+                        <div class="icon-box-content">
+                            <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.</p>
+
+                        </div>
+                        <div class="icon-box-link">
+                            <a href="">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pad-about">
+                    <div class="icon-box text-center">
+                        <div class="icon-box-icon">
+                            <span class="ti-layout">
+                                <i class="fa-solid fa-users"></i>
+                            </span>
+                        </div>
+                        <div class="icon-box-title">
+                            <h6>User Experience</h6>
+                        </div>
+                        <div class="icon-box-content">
+                            <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.</p>
+
+                        </div>
+                        <div class="icon-box-link">
+                            <a href="">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pad-about">
+                    <div class="icon-box text-center">
+                        <div class="icon-box-icon">
+                            <span class="ti-layout">
+                                <i class="fa-solid fa-reply-all"></i>
+                            </span>
+                        </div>
+                        <div class="icon-box-title">
+                            <h6>Fully Responsive</h6>
+                        </div>
+                        <div class="icon-box-content">
+                            <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.</p>
+
+                        </div>
+                        <div class="icon-box-link">
+                            <a href="">read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- bg-grey ends here -->
+
+    <section class="creative mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 m-auto text-center">
+                    <h1>Creative People.</h1>
+                    <p class="lead">See how your users experience your website in realtime or view trends to see any
+                        changes in performance over time.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="space" style="margin-top: 50px;"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 ">
+                    <div class="team-item">
+                        <div class="team-image ">
+                            <img src="./images/a.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="team-wrap ">
+                            <div class="t-conten">
+                                <h6>Emma Connor</h6>
+                                <div class="team-role">Designer</div>
+                            </div>
+                            <div class="team-social">
+                                <ul>
+                                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 ">
+                    <div class="team-item">
+                        <div class="team-image ">
+                            <img src="./images/b.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="team-wrap ">
+                            <div class="t-conten">
+                                <h6>Emma Connor</h6>
+                                <div class="team-role">Designer</div>
+                            </div>
+                            <div class="team-social">
+                                <ul>
+                                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 ">
+                    <div class="team-item">
+                        <div class="team-image ">
+                            <img src="./images/c.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="team-wrap ">
+                            <div class="t-conten">
+                                <h6>Emma Connor</h6>
+                                <div class="team-role">Designer</div>
+                            </div>
+                            <div class="team-social">
+                                <ul>
+                                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 ">
+                    <div class="team-item">
+                        <div class="team-image ">
+                            <img src="./images/d.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="team-wrap ">
+                            <div class="t-conten">
+                                <h6>Emma Connor</h6>
+                                <div class="team-role">Designer</div>
+                            </div>
+                            <div class="team-social">
+                                <ul>
+                                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 ">
+                    <div class="team-item">
+                        <div class="team-image ">
+                            <img src="./images/e.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="team-wrap ">
+                            <div class="t-conten">
+                                <h6>Emma Connor</h6>
+                                <div class="team-role">Designer</div>
+                            </div>
+                            <div class="team-social">
+                                <ul>
+                                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 ">
+                    <div class="team-item">
+                        <div class="team-image ">
+                            <img src="./images/e-1.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="team-wrap ">
+                            <div class="t-conten">
+                                <h6>Emma Connor</h6>
+                                <div class="team-role">Designer</div>
+                            </div>
+                            <div class="team-social">
+                                <ul>
+                                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="space" style="margin-top: 50px;"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 cs">
+                    <p class="text-center"><a href="" class="btn btn-cicle btn-outline-brand">About us</a></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- creative ends here -->
+
+
+
+    <section class="customer bg-grey">
+        <div class="container ">
+            <div class="row py-5">
+                <div class="col-lg-6 col-md-9 m-auto text-center">
+                    <h3>
+                        Loved by 50,000+ Customers.
+                    </h3>
+                    <p class="lead">
+                        See how your users experience your website in realtime or view trends to see any changes in
+                        performance over time.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="space" style="margin-top: 10px;"></div>
+                </div>
+            </div>
+            <!-- both carousel left -->
+            <div class="row row-icon  py-5">
+                <div class="col md-12">
+                    <div id="carouselExampleIndicators-0" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators-0" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators-0" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row cs-cara">
+                                    <div class="col-lg-4 col-md-12 text-center">
+                                        <div class="review-card">
+                                            <div class="review-card-content">
+                                                <p>Map where your photos were taken and discover local points of
+                                                    interest. Map where your photos.</p>
+
+                                            </div>
+                                            <div class="review-card-author">
+                                                <div class="review-card-author-photo">
+                                                    <img src="./images/au-p-1 (1).jpg" alt="" class="img-fluid">
+                                                </div>
+                                                <div class=".review-card-author-info">
+                                                    <h6 class="review-card-author-title">
+                                                        Sara Smith
+                                                    </h6>
+                                                    <span class="star-rating">
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 text-center">
+                                        <div class="review-card">
+                                            <div class="review-card-content">
+                                                <p>Map where your photos were taken and discover local points of
+                                                    interest. Map where your photos.</p>
+
+                                            </div>
+                                            <div class="review-card-author">
+                                                <div class="review-card-author-photo">
+                                                    <img src="./images/au-p-1 (2).jpg" alt="" class="img-fluid">
+                                                </div>
+                                                <div class=".review-card-author-info">
+                                                    <h6 class="review-card-author-title">
+                                                        Sara Smith
+                                                    </h6>
+                                                    <span class="star-rating">
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 text-center">
+                                        <div class="review-card">
+                                            <div class="review-card-content">
+                                                <p>Map where your photos were taken and discover local points of
+                                                    interest. Map where your photos.</p>
+
+                                            </div>
+                                            <div class="review-card-author">
+                                                <div class="review-card-author-photo">
+                                                    <img src="./images/au-p-1 (3).jpg" alt="" class="img-fluid">
+                                                </div>
+                                                <div class=".review-card-author-info">
+                                                    <h6 class="review-card-author-title">
+                                                        Sara Smith
+                                                    </h6>
+                                                    <span class="star-rating">
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                            <div class="carousel-item ">
+                                <div class="row cs-cara">
+                                    <div class="col-lg-4 col-md-12 text-center">
+                                        <div class="review-card">
+                                            <div class="review-card-content">
+                                                <p>Map where your photos were taken and discover local points of
+                                                    interest. Map where your photos.</p>
+
+                                            </div>
+                                            <div class="review-card-author">
+                                                <div class="review-card-author-photo">
+                                                    <img src="./images/au-p-1 (1).jpg" alt="" class="img-fluid">
+                                                </div>
+                                                <div class=".review-card-author-info">
+                                                    <h6 class="review-card-author-title">
+                                                        Sara Smith
+                                                    </h6>
+                                                    <span class="star-rating">
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 text-center">
+                                        <div class="review-card">
+                                            <div class="review-card-content">
+                                                <p>Map where your photos were taken and discover local points of
+                                                    interest. Map where your photos.</p>
+
+                                            </div>
+                                            <div class="review-card-author">
+                                                <div class="review-card-author-photo">
+                                                    <img src="./images/au-p-1 (2).jpg" alt="" class="img-fluid">
+                                                </div>
+                                                <div class=".review-card-author-info">
+                                                    <h6 class="review-card-author-title">
+                                                        Sara Smith
+                                                    </h6>
+                                                    <span class="star-rating">
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 text-center">
+                                        <div class="review-card">
+                                            <div class="review-card-content">
+                                                <p>Map where your photos were taken and discover local points of
+                                                    interest. Map where your photos.</p>
+
+                                            </div>
+                                            <div class="review-card-author">
+                                                <div class="review-card-author-photo">
+                                                    <img src="./images/au-p-1 (3).jpg" alt="" class="img-fluid">
+                                                </div>
+                                                <div class=".review-card-author-info">
+                                                    <h6 class="review-card-author-title">
+                                                        Sara Smith
+                                                    </h6>
+                                                    <span class="star-rating">
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row row-icon py-5">
+                <div class="col md-12">
+                    <div id="carouselExampleIndicators-1" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row g-0">
+                                    <div class="col-md-3 text-center">
+
+                                        <div class="siglebx">
+                                            <img src="./images/11.png" alt="" class="img-fluid">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-3 text-center">
+                                        <div class="siglebx">
+                                            <img src="./images/22.png" alt="" class="img-fluid">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-3 text-center">
+                                        <div class="siglebx">
+                                            <img src="./images/33.png" alt="" class="img-fluid">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-3 text-center">
+                                        <div class="siglebx">
+                                            <img src="./images/44.png" alt="" class="img-fluid">
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                            <div class="carousel-item ">
+                                <div class="row g-0">
+                                    <div class="col-md-3 text-center">
+                                        <div class="siglebx">
+                                            <img src="./images/55.png" alt="" class="img-fluid">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-3 text-center">
+                                        <div class="siglebx">
+                                            <img src="./images/66.png" alt="" class="img-fluid">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-3 text-center">
+                                        <div class="siglebx">
+                                            <img src="./images/77.png" alt="" class="img-fluid">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-3 text-center">
+                                        <div class="siglebx">
+                                            <img src="./images/11.png" alt="" class="img-fluid">
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+           
+           
+
+        </div>
+        
+
+
+    </section>
+
+
+    <footer>
+        <div class="footer-widget">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="widget widget-text">
+                            <div class="title-f">
+                                <h6>About Us</h6>
+                            </div>
+                            <div class="text-widget">
+                                <p>Map where your photos were taken and discover local points of interest. Map where
+                                    your photos.</p>
+                                <p>
+                                    Location: 12 London Avenue, Suite 18 <br>
+
+                                    E-mail: support@theme.com <br>
+
+                                    Phone: 8 800 123 4567</p>
+                            </div>
+                            <ul class="social-icon">
+                                <li class="px-2"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                <li class="px-2"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                <li class="px-2"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                <li class="px-2"><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="widget widget-text widget-recent-enty">
+                            <div class="title-f">
+                                <h6>Recent Posts</h6>
+                            </div>
+                            <ul class="unorder-f p-0">
+                                <li><a href="">Map where your photos were taken and discover local points.</a>
+                                    <span class="post-date">May 8, 2018</span>
+                                </li>
+                                <li><a href="">Map where your photos were taken and discover local points.</a>
+                                    <span class="post-date">May 8, 2018</span>
+                                </li>
+                                <li><a href="">Map where your photos were taken and discover local points.</a>
+                                    <span class="post-date">May 8, 2018</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="widget widget-text">
+                            <div class="title-f">
+                                <h6>Twitter-feed</h6>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="widget widget-text widget-recent-works">
+                            <div class="title-f">
+                                <h6>Port-folio</h6>
+                            </div>
+
+                            <ul class="port p-0">
+                                <li><a href=""><img src="./images/p-1.jpg" alt="" class="img-fluid"></a></li>
+                                <li><a href=""><img src="./images/p-2.jpg" alt="" class="img-fluid"></a></li>
+                                <li><a href=""><img src="./images/p-3.jpg" alt="" class="img-fluid"></a></li>
+                                <li><a href=""><img src="./images/p-4.jpg" alt="" class="img-fluid"></a></li>
+                                <li><a href=""><img src="./images/p-5.jpg" alt="" class="img-fluid"></a></li>
+                                <li><a href=""><img src="./images/p-6.jpg" alt="" class="img-fluid"></a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyright text-center mt-4">
+                            <p>© 2018 Boomerang, All Rights Reserved. Design with love by
+                                <a href="">2theme</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+
+</html>

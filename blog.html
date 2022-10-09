@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e16dcabf65.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./blog.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="nav-offcanvas fixed-top">
+        <nav class="navbar navbar-expand-lg  navbar-light bg-primary custom-nav-H ">
+            <div class="container-fluid">
+                <a class="navbar-brand brand" href="./home.html">Boomerrang</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3 ">
+                            <a class="nav-link " aria-current="page" href="./home.html">Home</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="./about.html">about us</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="./portfolio.html">portfolio</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="./blog.html">blog</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="./checkout.html">checkout</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="./component.html">component</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav extra-nav-ww ">
+                        <li class="px-3"><a href="">
+                                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                            </a></li>
+                        <li><a data-bs-toggle="offcanvas" href="#offcanvasRight">
+                                <span><i class="fa-solid fa-bars"></i> </span>
+                            </a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+
+
+        <div class="offcanvas offcanvas-end offcanvas-bg" tabindex="-1" id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body ">
+                <div class="off-canvas-content">
+                    <aside class="widget">
+                        <div class="textwidget ">
+                            <p class=" logo-off text-center m-0">
+                                <img src="./images/logo-light-2.png" alt="" class="img-fluid">
+                            </p>
+                            <p class="text-center mt-3">
+                                See how users experience your website in realtime to see changes.
+                            </p>
+                        </div>
+                    </aside>
+
+                    <aside class="widget widget-recent-works">
+                        <ul class="off-img">
+                            <li><a href=""><img src="./images/1.jpg" alt="" class="img-fluid"></a></li>
+                            <li><a href=""><img src="./images/2.jpg" alt="" class="img-fluid"></a></li>
+                            <li><a href=""><img src="./images/3.jpg" alt="" class="img-fluid"></a></li>
+                            <li><a href=""><img src="./images/4.jpg" alt="" class="img-fluid"></a></li>
+                            <li><a href=""><img src="./images/5.jpg" alt="" class="img-fluid"></a></li>
+                            <li><a href=""><img src="./images/6.jpg" alt="" class="img-fluid"></a></li>
+                            <li><a href=""><img src="./images/7.jpg" alt="" class="img-fluid"></a></li>
+                            <li><a href=""><img src="./images/8.jpg" alt="" class="img-fluid"></a></li>
+                            <li><a href=""><img src="./images/5.jpg" alt="" class="img-fluid"></a></li>
+                        </ul>
+                    </aside>
+
+                    <ul class="social-icon-off">
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+    <!-- navbar and offcanvas ends here -->
+    <section class=" bg-c">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="space" style="margin-top: 250px;"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12  text-center cscs">
+                    <h1>Right Sidebar
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Quisque eget mi at eros venenatis
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="space" style="margin-top: 250px;"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+    <!-- bg-c ends here -->
+
+    <section class="module-gc mt-5">
+        <div class="container ">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <article class="post">
+                        <div class="post-preview">
+                            <a href="">
+                                <img src="./images/arti-2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="post-wrapper">
+                            <div class="post-header">
+                                <h2 class="post-title">
+                                    <a href="">Street Fashion</a>
+                                </h2>
+                                <ul class="post-meta">
+                                    <li>November 18, 2016</li>
+                                    <li><a href="">Branding</a><a href="">Design</a></li>
+                                    <li><a href="">3 Comments</a></li>
+                                </ul>
+                            </div>
+                            <div class="post-content">
+                                <p>Just then her head struck against the roof of the hall in fact she was now more than
+                                    nine feet high and she at once took up the little golden key and hurried off to the
+                                    garden door. The first question of course was, how to get dry again: they had a
+                                    consultation about this, and after a few minutes it seemed quite natural to Alice to
+                                    find herself talking familiarly with them.</p>
+
+                            </div>
+                            <div class="post-more">
+                                <a href="">Read more</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="post">
+                        <div class="post-preview">
+                            <a href="">
+                                <img src="./images/arti-4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="post-wrapper">
+                            <div class="post-header">
+                                <h2 class="post-title">
+                                    <a href="">Street Fashion</a>
+                                </h2>
+                                <ul class="post-meta">
+                                    <li>November 18, 2016</li>
+                                    <li><a href="">Branding</a><a href="">Design</a></li>
+                                    <li><a href="">3 Comments</a></li>
+                                </ul>
+                            </div>
+                            <div class="post-content">
+                                <p>Just then her head struck against the roof of the hall in fact she was now more than
+                                    nine feet high and she at once took up the little golden key and hurried off to the
+                                    garden door. The first question of course was, how to get dry again: they had a
+                                    consultation about this, and after a few minutes it seemed quite natural to Alice to
+                                    find herself talking familiarly with them.</p>
+
+                            </div>
+                            <div class="post-more">
+                                <a href="">Read more</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="post">
+                        <div class="post-preview">
+                            <a href="">
+                                <img src="./images/arti-5.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="post-wrapper">
+                            <div class="post-header">
+                                <h2 class="post-title">
+                                    <a href="">Street Fashion</a>
+                                </h2>
+                                <ul class="post-meta">
+                                    <li>November 18, 2016</li>
+                                    <li><a href="">Branding</a><a href="">Design</a></li>
+                                    <li><a href="">3 Comments</a></li>
+                                </ul>
+                            </div>
+                            <div class="post-content">
+                                <p>Just then her head struck against the roof of the hall in fact she was now more than
+                                    nine feet high and she at once took up the little golden key and hurried off to the
+                                    garden door. The first question of course was, how to get dry again: they had a
+                                    consultation about this, and after a few minutes it seemed quite natural to Alice to
+                                    find herself talking familiarly with them.</p>
+
+                            </div>
+                            <div class="post-more">
+                                <a href="">Read more</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="post">
+                        <div class="post-preview">
+                            <a href="">
+                                <img src="./images/arti-3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="post-wrapper">
+                            <div class="post-header">
+                                <h2 class="post-title">
+                                    <a href="">Street Fashion</a>
+                                </h2>
+                                <ul class="post-meta">
+                                    <li>November 18, 2016</li>
+                                    <li><a href="">Branding</a><a href="">Design</a></li>
+                                    <li><a href="">3 Comments</a></li>
+                                </ul>
+                            </div>
+                            <div class="post-content">
+                                <p>Just then her head struck against the roof of the hall in fact she was now more than
+                                    nine feet high and she at once took up the little golden key and hurried off to the
+                                    garden door. The first question of course was, how to get dry again: they had a
+                                    consultation about this, and after a few minutes it seemed quite natural to Alice to
+                                    find herself talking familiarly with them.</p>
+
+                            </div>
+                            <div class="post-more">
+                                <a href="">Read more</a>
+                            </div>
+                        </div>
+                    </article>
+                    <div class="row">
+                        <!-- <div class="col-md-12">
+                        <nav>
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item">
+                                    <a href=""><i class="fa-solid fa-angle-left"></i></a>
+                                </li>
+                                <li class="page-item active">
+                                    <a href="" class="page-link">1</a>
+                                </li>
+                                <li class="page-item"><a href="">2</a></li>
+                                <li class="page-item"><a href="">3</a></li>
+                                <li class="page-item"><a href="">4</a></li>
+                                <li class="page-item">
+                                    <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                                </li>
+                                
+                            </ul>
+                        </nav>
+                    </div>
+                    </div> -->
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="sidebar">
+                        <aside class="widget widget-search">
+                            <form action="">
+                                <input type="search" class="form-control" placeholder="type search words">
+                                <button class="search-button" type="button">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </form>
+                        </aside>
+                        <aside class="widget widget-categories">
+                            <div class="widget-title">
+                                <h6>Categories</h6>
+
+                            </div>
+                            <ul>
+                                <li><a href="">journey <span class="float-right">112</span></a>
+                                </li>
+                                <li><a href="">Developement <span class="float-right">112</span></a>
+                                </li>
+                                <li><a href="">Sport <span class="float-right">112</span></a>
+                                </li>
+                                <li><a href="">Photography <span class="float-right">112</span></a>
+                                </li>
+                                <li><a href="">Symphony <span class="float-right">112</span></a>
+                                </li>
+                            </ul>
+                        </aside>
+                        <aside class="widget widget-recent-entries-custom">
+                            <div class="widget-title">
+                                <h6>
+                                    Recent Posts
+                                </h6>
+                            </div>
+                            <ul>
+                                <li class="clearfix">
+                                    <div class="wi">
+                                        <a href=""><img src="./images/1-sli.jpg" alt=""></a>
+                                    </div>
+                                    <div class="wb">
+                                        <a href="">Map where your photos were taken and discover local points.</a>
+                                        <span class="post-date">May 8, 2016</span>
+                                    </div>
+                                </li>
+                                <li class="clearfix">
+                                    <div class="wi">
+                                        <a href=""><img src="./images/2-sli.jpg" alt=""></a>
+                                    </div>
+                                    <div class="wb">
+                                        <a href="">Map where your photos were taken and discover local points.</a>
+                                        <span class="post-date">May 8, 2016</span>
+                                    </div>
+                                </li>
+                                <li class="clearfix">
+                                    <div class="wi">
+                                        <a href=""><img src="./images/3-sli.jpg" alt=""></a>
+                                    </div>
+                                    <div class="wb">
+                                        <a href="">Map where your photos were taken and discover local points.</a>
+                                        <span class="post-date">May 8, 2016</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </aside>
+
+                        <aside class="widget widget twitter-feed-widget">
+                            <div class="widget-title">
+                                <h6>Twitter Feed</h6>
+                            </div>
+                        </aside>
+
+                        <aside class="widget widget-tag-cloud">
+                            <div class="widget-title">
+                                <h6>Tags</h6>
+
+                            </div>
+                            <div class="tag-cloud">
+                                <a href="">e-commerce</a>
+                                <a href="">portfolio</a>
+                                <a href="">responsive</a>
+                                <a href="">bootstrap</a>
+                                <a href="">business</a>
+                                <a href="">corporate</a>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <nav>
+                        <ul class="pagination justify-content-center align-items-center">
+                            <li class="page-item align-items-center mx-2">
+                                <a href="#" class="page-link">
+                                  <span>
+                                    <i class="fa-solid fa-angle-left"></i>
+                                  </span>
+                                </a>
+                            </li>
+
+                            <li class="page-item active align-items-center mx-2">
+                                <a href="#" class="page-link">1</a>
+
+                            </li>
+                            <li class="page-item  align-items-center mx-2">
+                                <a href="#" class="page-link">2</a>
+
+                            </li>
+                            <li class="page-item  align-items-center mx-2">
+                                <a href="#" class="page-link">3</a>
+
+                            </li>
+                            <li class="page-item  align-items-center mx-2">
+                                <a href="#" class="page-link">4</a>
+
+                            </li>
+
+                            <li class="page-item align-items-center mx-2">
+                                <a href="#" class="page-link">
+                                  <span>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                  </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- module gc end here -->
+
+    <footer>
+        <div class="footer-widget">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="widget widget-text">
+                            <div class="title-f">
+                                <h6>About Us</h6>
+                            </div>
+                            <div class="text-widget">
+                                <p>Map where your photos were taken and discover local points of interest. Map where
+                                    your photos.</p>
+                                <p>
+                                    Location: 12 London Avenue, Suite 18 <br>
+
+                                    E-mail: support@theme.com <br>
+
+                                    Phone: 8 800 123 4567</p>
+                            </div>
+                            <ul class="social-icon">
+                                <li class="px-2"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                <li class="px-2"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                <li class="px-2"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                <li class="px-2"><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="widget widget-text widget-recent-enty">
+                            <div class="title-f">
+                                <h6>Recent Posts</h6>
+                            </div>
+                            <ul class="unorder-f p-0">
+                                <li><a href="">Map where your photos were taken and discover local points.</a>
+                                    <span class="post-date">May 8, 2018</span>
+                                </li>
+                                <li><a href="">Map where your photos were taken and discover local points.</a>
+                                    <span class="post-date">May 8, 2018</span>
+                                </li>
+                                <li><a href="">Map where your photos were taken and discover local points.</a>
+                                    <span class="post-date">May 8, 2018</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="widget widget-text">
+                            <div class="title-f">
+                                <h6>Twitter-feed</h6>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="widget widget-text widget-recent-works">
+                            <div class="title-f">
+                                <h6>Port-folio</h6>
+                            </div>
+
+                            <ul class="port p-0">
+                                <li><a href=""><img src="./images/p-1.jpg" alt="" class="img-fluid"></a></li>
+                                <li><a href=""><img src="./images/p-2.jpg" alt="" class="img-fluid"></a></li>
+                                <li><a href=""><img src="./images/p-3.jpg" alt="" class="img-fluid"></a></li>
+                                <li><a href=""><img src="./images/p-4.jpg" alt="" class="img-fluid"></a></li>
+                                <li><a href=""><img src="./images/p-5.jpg" alt="" class="img-fluid"></a></li>
+                                <li><a href=""><img src="./images/p-6.jpg" alt="" class="img-fluid"></a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyright text-center mt-4">
+                            <p>© 2018 Boomerang, All Rights Reserved. Design with love by
+                                <a href="">2theme</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
